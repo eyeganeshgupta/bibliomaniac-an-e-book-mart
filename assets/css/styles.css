@@ -364,3 +364,81 @@ img {
 .show-login {
   top: 0;
 }
+
+/*=============== HOME ===============*/
+.home-container {
+  padding-top: 2rem;
+  row-gap: 2.5rem;
+}
+
+.home-data {
+  text-align: center;
+}
+
+.home-title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  margin-bottom: 2rem;
+}
+
+.home-images {
+  display: grid;
+}
+
+.home-swiper {
+  margin: initial;
+}
+
+.home-article,
+.home-img {
+  width: 220px;
+  transition: scale 0.4s;
+}
+
+.home-article {
+  scale: 0.8;
+}
+
+/* Swiper class */
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  scale: 1;
+}
+
+/*=============== BUTTON ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem 1.5rem;
+  transition: box-shadow 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 4px 32px hsla(230, 72%, 32%, 0.4);
+}
+
+/*=============== SERVICES ===============*/
+.services-container {
+  row-gap: 3rem;
+}
+
+.services-card {
+  text-align: center;
+}
+
+.services-card i {
+  display: block;
+  font-size: 3rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.services-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}

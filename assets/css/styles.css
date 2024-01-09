@@ -442,3 +442,84 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: 0.5rem;
 }
+
+/*=============== FEATURED ===============*/
+.featured-card {
+  position: relative;
+  text-align: center;
+  background-color: var(--container-color);
+  padding: 2rem;
+  overflow: hidden;
+  border: 2px solid var(--border-color);
+  transition: border 0.4s, background-color 0.4s;
+}
+
+.featured-img {
+  width: 150px;
+  margin: 0 auto 0.75rem;
+}
+
+.featured-title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.featured-prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.featured-discount {
+  color: var(--title-color);
+}
+
+.featured-price {
+  font-size: var(--small-font-size);
+  text-decoration: line-through;
+}
+
+.featured-card .button {
+  cursor: pointer;
+}
+
+.featured-actions {
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  position: absolute;
+  top: 2rem;
+  right: -1.5rem;
+  transition: right 0.4s;
+}
+
+.featured-actions button {
+  background: none;
+  font-size: 1.25rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.featured-card:hover .featured-actions {
+  right: 1.5rem;
+}
+
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  background-color: var(--container-color);
+  border: 2px solid var(--border-color);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  transition: border 0.4s background-color 0.4s;
+}

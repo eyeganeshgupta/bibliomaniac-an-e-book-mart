@@ -681,3 +681,98 @@ img {
 .testimonial-stars {
   color: var(--first-color);
 }
+
+/*=============== FOOTER ===============*/
+.footer {
+  padding-block: 4rem 6rem;
+}
+
+.footer-container {
+  row-gap: 3rem;
+}
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--first-color);
+  font-size: var(--h3-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 1.25rem;
+}
+
+.footer-logo i {
+  font-size: 1.25rem;
+}
+
+.footer-data {
+  grid-template-columns: repeat(2, max-content);
+  gap: 3rem 2rem;
+}
+
+.footer-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.footer-links {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.footer-link {
+  color: var(--text-color);
+  transition: color 0.4s;
+}
+
+.footer-link:hover {
+  color: var(--first-color);
+}
+
+.footer-info {
+  font-style: normal;
+}
+
+.footer-social {
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.footer-social-links {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.footer-copy {
+  display: block;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: hsl(230, 16%, 85%);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: hsl(230, 16%, 65%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(230, 16%, 55%);
+}
+
+/*=============== SCROLL UP ===============*/
+
+/* Show Scroll Up */
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+/* For medium devices */
+
+/* For large devices */

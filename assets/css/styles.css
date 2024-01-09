@@ -523,3 +523,38 @@ img {
   color: var(--first-color);
   transition: border 0.4s background-color 0.4s;
 }
+
+/*=============== DISCOUNT ===============*/
+.discount {
+  row-gap: 3.5rem;
+}
+
+.discount-data {
+  text-align: center;
+}
+
+.discount-title {
+  margin-bottom: 1rem;
+}
+
+.discount-description {
+  margin-bottom: 2rem;
+}
+
+.discount-images {
+  display: flex;
+  justify-content: center;
+}
+
+.discount-img-1,
+.discount-img-2 {
+  width: 170px;
+}
+
+.discount-img-1 {
+  transform: translateX(1rem) rotate(-10deg);
+}
+
+.discount-img-2 {
+  transform: translateX(-1rem) rotate(10deg);
+}

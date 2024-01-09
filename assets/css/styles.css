@@ -607,3 +607,48 @@ img {
 .new-swiper:nth-child(1) {
   margin-bottom: 2rem;
 }
+
+/*=============== JOIN ===============*/
+.join-container {
+  position: relative;
+  padding-block: 3rem;
+}
+
+.join-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.join-data {
+  position: relative;
+}
+
+.join-title {
+  color: var(--white-color);
+}
+
+.join-form {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.join-input {
+  padding: 1.25rem 1rem;
+  background-color: var(--body-color);
+  color: var(--title-color);
+  transition: background-color 0.4s;
+}
+
+.join-input::placeholder {
+  color: var(--text-color);
+}
+
+.join-button {
+  padding-block: 1.25rem;
+  cursor: pointer;
+}

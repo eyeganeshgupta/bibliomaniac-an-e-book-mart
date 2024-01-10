@@ -18,3 +18,24 @@ if (searchClose) {
     searchContent.classList.remove("show-search");
   });
 }
+
+/*=============== LOGIN ===============*/
+const loginButton = document.getElementById("login-button");
+const loginClose = document.getElementById("login-close");
+const loginContent = document.getElementById("login-content");
+
+/*=============== Show login ===============*/
+// ! Validate if constant exists
+if (loginButton) {
+  loginButton.addEventListener("click", () => {
+    loginContent.classList.add("show-login");
+  });
+}
+
+/*=============== Hide login ===============*/
+// ! Validate if constant exists
+if (loginClose) {
+  loginClose.addEventListener("click", () => {
+    loginContent.classList.remove("show-login");
+  });
+}

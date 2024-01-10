@@ -49,3 +49,43 @@ const shadowHeader = () => {
 };
 
 window.addEventListener("scroll", shadowHeader);
+
+/*=============== HOME SWIPER ===============*/
+let swiperHome = new Swiper(".home-swiper", {
+  loop: true,
+  spaceBetween: -24,
+  grabCursor: true,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    1220: {
+      spaceBetween: -32,
+    },
+  },
+
+  /*
+  // ! Optional Parameters
+  direction: "vertical",
+  loop: true,
+
+  // ! if we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // ! navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // ! And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+  */
+});

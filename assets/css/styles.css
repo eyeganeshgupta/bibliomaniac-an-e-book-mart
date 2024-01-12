@@ -935,3 +935,184 @@ body.dark-theme {
     justify-content: space-between;
   }
 }
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+  .section {
+    padding-block: 7rem 2rem;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+    column-gap: 4rem;
+  }
+
+  .nav-link i {
+    display: none;
+  }
+
+  .nav-link span {
+    display: block;
+  }
+
+  .nav-menu {
+    width: initial;
+    margin-inline: auto 0;
+  }
+
+  .nav-list {
+    column-gap: 4rem;
+  }
+
+  .nav-link {
+    font-weight: var(--font-medium);
+  }
+
+  .dark-theme .nav-menu {
+    box-shadow: none;
+  }
+
+  .home-data {
+    width: initial;
+  }
+
+  .services-container {
+    column-gap: 10rem;
+  }
+
+  .services-card i {
+    font-size: 3.5rem;
+  }
+
+  .featured-container {
+    padding-top: 2rem;
+  }
+
+  .featured-title {
+    font-size: var(--h3-font-size);
+  }
+
+  .discount-container {
+    grid-template-columns: 615px 500px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .discount-data {
+    order: 1;
+  }
+
+  .discount-data,
+  .discount-title {
+    text-align: initial;
+  }
+
+  .discount-description {
+    margin-bottom: 3.5rem;
+  }
+
+  .discount-img-1,
+  .discount-img-2 {
+    width: 300px;
+  }
+
+  .new-container {
+    padding-top: 2rem;
+  }
+
+  .new-card {
+    padding: 1.5rem;
+  }
+
+  .new-img {
+    width: 120px;
+  }
+
+  .new-title {
+    font-size: var(--h3-font-size);
+  }
+
+  .join-bg {
+    object-position: 0 -5rem;
+  }
+
+  .testimonial-container {
+    padding-top: 2rem;
+  }
+
+  .testimonial-card {
+    padding-inline: 2rem;
+  }
+
+  .testimonial-title {
+    font-size: var(--h3-font-size);
+  }
+
+  .testimonial-description {
+    font-size: var(--normal-font-size);
+  }
+
+  .footer {
+    padding-block: 6rem 3rem;
+  }
+
+  .footer-data {
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 4.5rem;
+  }
+
+  .footer-logo,
+  .footer-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-links {
+    row-gap: 1rem;
+  }
+
+  .footer-social {
+    column-gap: 1.5rem;
+  }
+
+  .footer-social-link {
+    font-size: 1.5rem;
+  }
+
+  .footer-copy {
+    margin-top: 7.5rem;
+  }
+
+  .scrollup {
+    right: 3rem;
+  }
+
+  .show-scroll {
+    bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .home-container {
+    grid-template-columns: 435px 745px;
+    align-items: center;
+    padding-block: 7rem 2rem;
+  }
+
+  .home-data {
+    text-align: initial;
+  }
+
+  .home-description {
+    margin-bottom: 4rem;
+  }
+
+  .home-article,
+  .home-img {
+    width: 290px;
+  }
+}

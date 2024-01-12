@@ -827,3 +827,33 @@ body.dark-theme {
 .show-scroll {
   bottom: 6rem;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .nav-menu {
+    padding-inline: 3rem;
+  }
+
+  .discount-img-1,
+  .discount-img-2 {
+    width: 140px;
+  }
+
+  .new-card {
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    padding-inline: 1rem;
+  }
+
+  .footer-data {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}

@@ -857,3 +857,81 @@ body.dark-theme {
     row-gap: 2rem;
   }
 }
+
+/* For medium devices */
+@media screen and (min-width: 450px) {
+  .featured-card {
+    width: 290px;
+  }
+
+  .new-card {
+    width: 390px;
+  }
+
+  .testimonial-card {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .search-form {
+    width: 500px;
+    margin-inline: auto;
+  }
+
+  .login-form {
+    width: 400px;
+    justify-self: center;
+  }
+
+  .search-close,
+  .login-close {
+    width: max-content;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+  }
+
+  .nav-menu {
+    width: 380px;
+    margin-inline: auto;
+  }
+
+  .home-container,
+  .discount-container {
+    grid-template-columns: 420px;
+    justify-content: center;
+  }
+
+  .join-form {
+    width: 328px;
+    justify-self: center;
+  }
+
+  .footer-data {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    grid-template-columns: 580px;
+  }
+
+  .home-data {
+    width: 420px;
+    justify-self: center;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    column-gap: 5rem;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+}
